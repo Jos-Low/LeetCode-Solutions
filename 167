@@ -1,0 +1,5 @@
+for n in range(len(numbers)):
+            num = numbers[n]
+            left = numbers[n+1:]
+            if (target - num) in left:
+                print([n+1,left.index(target-num)+(n+2)])
