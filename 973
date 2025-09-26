@@ -1,0 +1,13 @@
+import heapq
+points = [[3,3],[5,-1],[-2,4]]
+k = 2
+
+heap = []
+
+for p in points:
+    distance = (p[0]**2) + (p[1]**2)
+    heapq.heappush(heap, (-distance, p))
+    if len(heap) > k:
+        heapq.heappop(heap)
+
+print([point[1] for point in heap])
