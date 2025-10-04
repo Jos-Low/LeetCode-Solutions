@@ -1,4 +1,4 @@
-#🧩 LeetCode Solutions (Python)
+🧩 LeetCode Solutions (Python)
 
 A collection of Python solutions to LeetCode problems, focused primarily on medium difficulty. This repository demonstrates strong problem-solving skills, proficiency in Python, and experience with common data structures and algorithms.
 
